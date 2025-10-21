@@ -7,11 +7,8 @@
 
 ##3)schéma
     a) ohmova metoda pro malé obvody
-    
-    ![image](images/schema-a.jpeg)
-    
+    ! [image](images/schema-a.jpeg)
     b) ohmova metoda pro velke odpory
-    
     ![image] (images/schema-b.jpeg)
 
 ###4) použité přístroje
@@ -28,15 +25,17 @@
 ##6) tabulka v souboru tabulka
 
 
-##7) příklad výpočtu
+##7) příklad výpočtu 
 
-    a)
+a)
+
     R= U/I [ohm]
     Ix = I - Iv = I - U/Rv [A]
     Rx = U/Ix [ohm]
     δm = (R-Rx)/Rx *100 [%]
     
-    b)
+b)
+
         R= U/I [ohm]
         Ux = u- ΔU = U- Ra * I [V]
         Rx = Ux/I [ohm]
