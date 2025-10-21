@@ -7,9 +7,9 @@
 
 ##3)schéma
     a) ohmova metoda pro malé obvody
-    ! [image](images/schema-a.jpeg)
+    ![image](images/schema-a.jpeg)
     b) ohmova metoda pro velke odpory
-    ![image] (images/schema-b.jpeg)
+    ![image](images/schema-b.jpeg)
 
 ###4) použité přístroje
 
