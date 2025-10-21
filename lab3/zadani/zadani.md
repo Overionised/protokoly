@@ -3,6 +3,7 @@
 ### 1) Zadání:
 
 ### 2) Měřený předmět
+
     Hl -žárovka, 40w/240V
 
 ### 3)schéma
