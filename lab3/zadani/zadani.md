@@ -5,7 +5,7 @@
 ##2) Měřený předmět
     Hl -žárovka, 40w/240V
 
-##3)schéma
+##3)schéma##
     a) ohmova metoda pro malé obvody
     ![image](images/schema-a.jpeg)
     b) ohmova metoda pro velke odpory
@@ -52,6 +52,6 @@ kritický odpor
 ##8) Graf
  závislosti chyby metody na odporu žárovky pouzit bezier(prolozit křivku)
  
- ![image] (images/graf1.jpeg)
+ ![image](images/graf1.jpeg)
 
  
