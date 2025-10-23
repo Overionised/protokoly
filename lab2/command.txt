@@ -3,15 +3,12 @@ set terminal pngcairo size 800,600 enhanced font 'Arial,10'
 set output 'myplot.png'
 
 set xlabel "Hmax [A/m]"
-set ylabel "Mr"
+set ylabel "Bmax [T]"
 set grid
 
 set style line 1 lc rgb "#b16286" lw 2
-set style line 5 lc rgb "#cc0000" lw 2 dt 3
-
 set key top right box
 
 plot \
-    'data2.txt' index 0 using 1:2 with lines smooth csplines ls 1 notitle, \
-    'data3.txt' index 0 using 1:2 with lines ls 5 title "μ max", \
-    'data2.txt' index 0 using 1:2:(sprintf("+")) with labels font "Arial,10" tc rgb "black" offset 0,0 notitle
+    'data.txt' using 1:2 with lines smooth bezier ls 1 notitle, \
+    'data.txt' using 1:2:(sprintf("+")) with labels font "Arial,10" tc rgb "black" offset 0,0 notitle
