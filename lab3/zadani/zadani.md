@@ -7,10 +7,10 @@
     Hl -žárovka, 40w/240V
 
 ### 3)schéma
-    a) ohmova metoda pro malé obvody
+#### a) ohmova metoda pro malé obvody
     
 ![image](images/schema-a.jpeg)
-    b) ohmova metoda pro velke odpory
+#### b) ohmova metoda pro velke odpory
     
 ![image](images/schema-b.jpeg)
 
