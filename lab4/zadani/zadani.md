@@ -63,11 +63,11 @@ R_x = R_2 \cdot \frac{R_2}{R_4}
 $$
 
 $$
-\Delta = 100 \cdot \frac{R_2 - R_{\text{štít}}}{R_{\text{štít}}}
+\delta = 100 \cdot \frac{R_2 - R_{\text{štít}}}{R_{\text{štít}}}
 $$
 
 $$
-c\,\delta R_x = \frac{c\,\delta R_2}{10 \cdot \frac{R_3}{R_4}}
+c\ \Delta R_x = \frac{c\ \Delta R_2}{10 \cdot \frac{R_3}{R_4}}
 $$
 
 
