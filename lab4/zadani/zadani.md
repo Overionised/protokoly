@@ -59,15 +59,15 @@ Můstek funguje na vyvážení můstku. To znamená ýe středním sloupkem nete
 ### 7) příklad výpočtu 
 
 $$
-Rx = R2 \cdot \frac {R2}{R4}
+R_x = R_2 \cdot \frac{R_2}{R_4}
 $$
 
 $$
-\DELTA = 100 \cdot \frac {R2 - Rštít}{Rštít}
+\Delta = 100 \cdot \frac{R_2 - R_{\text{štít}}}{R_{\text{štít}}}
 $$
 
 $$
-c\deltaRx = \fraq {c\deltaR2}{1O \cdot \fraq{R3}{R4}}
+c\,\delta R_x = \frac{c\,\delta R_2}{10 \cdot \frac{R_3}{R_4}}
 $$
 
 
