@@ -67,7 +67,7 @@ $$
 $$
 
 $$
-c\ \Delta R_x = \frac{c\ \Delta R_2}{10 \cdot \frac{R_3}{R_4}}
+c_{ \Delta R_x} = \frac{c_{ \Delta R_2}}{10 \cdot \frac{R_3}{R_4}}
 $$
 
 
