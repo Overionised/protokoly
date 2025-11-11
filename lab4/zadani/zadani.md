@@ -8,7 +8,7 @@ Zjistěte experimentálně napěťovou citlivost můstku pro jednotlivá měřen
 ### 2) Měřený předmět
 
 | ozn.  | štít. mod.      |     typ     | tolerance |
-| :---: | :------------:  | ----------: |           |
+| :---: | :------------:  | :---------: | :-------: |
 | Rx1   |                 |             |           |
 | Rx2   |                 |             |           |
 | Rx3   |                 |             |           |
