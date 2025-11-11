@@ -1,6 +1,6 @@
 reset
 set terminal pngcairo size 1300, 1100 enhanced font 'Arial,15'
-set output 'myplot.png'
+set output 'myplot-log.png'
 
 set xlabel "U{CE}"
 set ylabel "Ic"
@@ -22,27 +22,31 @@ set key top left box
 #f3(x) = a1*x**3 + b3*x + c3
 #f4(x) = a1*x**3 + b4*x + c4
 #
-#
-##log
-#
-##f1(x) = a1*log(x) + b1
-##f2(x) = a2*log(x) + b2
-#
-## Fit each block separately
-#fit f1(x) 'data.txt' index 0 using 1:2 via a1,b1,c1
-#fit f2(x) 'data.txt' index 1 using 1:2 via a2,b2,c2
-#fit f3(x) 'data.txt' index 2 using 1:2 via a3,b3,c3
-#fit f4(x) 'data.txt' index 3 using 1:2 via a4,b4,c4
+
+#log
+
+c1 = 500
+f1(x) = a1*log(x * c1) + b1
+f2(x) = a2*log(x * c1) + b2
+f3(x) = a3*log(x * c1) + b3
+f4(x) = a4*log(x * c1) + b4
+
+
+# Fit each block separately
+fit f1(x) 'data.txt' index 0 using 1:2 via a1,b1
+fit f2(x) 'data.txt' index 1 using 1:2 via a2,b2
+fit f3(x) 'data.txt' index 2 using 1:2 via a3,b3
+fit f4(x) 'data.txt' index 3 using 1:2 via a4,b4
 
 # Plot both datasets and their fits
 plot \
     'data.txt' index 0 using 1:2:(sprintf("+")) with labels font "Arial,15" tc rgb "black" offset 0,0 notitle , \
-    'data.txt' index 0 using 1:2 smooth unique with lines ls 1 title "50kΩ", \
+    f1(x) with lines ls 1 title "50kΩ", \
     'data.txt' index 1 using 1:2:(sprintf("+")) with labels font "Arial,15" tc rgb "black" offset 0,0 notitle, \
-    'data.txt' index 1 using 1:2 smooth unique with lines ls 2 title "60kΩ", \
+    f2(x) with lines ls 2 title "60kΩ", \
     'data.txt' index 2 using 1:2:(sprintf("+")) with labels font "Arial,15" tc rgb "black" offset 0,0 notitle , \
-   'data.txt' index 2 using 1:2 smooth unique with lines ls 3 title "70kΩ", \
+    f3(x) with lines ls 3 title "70kΩ", \
     'data.txt' index 3 using 1:2:(sprintf("+")) with labels font "Arial,15" tc rgb "black" offset 0,0 notitle , \
-    'data.txt' index 3 using 1:2 smooth unique with lines ls 4 title "80kΩ"
+    f4(x) with lines ls 4 title "80kΩ"
 
 unset output

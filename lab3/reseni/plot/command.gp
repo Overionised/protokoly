@@ -61,7 +61,3 @@ do for [i=1:10000] {
 #pocitani intersekce y
 y = f1(830.390999999873)
 print "průsečík nalezen v: ", y
-
-
-
-
