@@ -56,13 +56,20 @@ Můstek funguje na vyvážení můstku. To znamená ýe středním sloupkem nete
 
 ### 6) tabulka v souboru tabulka
 
-
 ### 7) příklad výpočtu 
 
+$$
+Rx = R2 \cdot \frac {R2}{R4}
+$$
 
-### 8) Graf
+$$
+\DELTA = 100 \cdot \frac {R2 - Rštít}{Rštít}
+$$
+
+$$
+c\deltaRx = \fraq {c\deltaR2}{1O \cdot \fraq{R3}{R4}}
+$$
 
 
- ![image](images/graf1.jpeg)
-
+### 8) Graf není
  
