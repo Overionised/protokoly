@@ -40,9 +40,17 @@ Zjistěte experimentálně napěťovou citlivost můstku pro jednotlivá měřen
 -z toho plyne 
 Rx *R4 = R2*R3 -> Rx = (R2*R3)/R4 -> Rx = R2 * R3/R4
 
- $/ Rx*R4=R2*R3
- $/ Rx= {R2*R3} over {R4}
- $/ Rx = R2 {R3} over {R4}
+ $$ 
+ Rx \cdot R4=R2 \cdot R3
+ $$
+ 
+ $$
+ Rx= \frac {R2 \cdot R3}  {R4}
+ $$
+ 
+ $$
+ Rx = R2 \cdot \frac {R3} {R4}
+ $$
 
 Můstek funguje na vyvážení můstku. To znamená ýe středním sloupkem neteče žádný proud a tak je tam 0lové napětí. proto je důležité že na Ampermetru je 0. Určení odporu při vyvážení je 
 
