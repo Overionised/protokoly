@@ -36,11 +36,10 @@ G – generátor osciloskop, č.u. / typ č.u.
 
 ### 7) příklad výpočtu 
 
-$$
-R_x = R_2 \cdot \frac{R_2}{R_4}
-$$
+zvlast v reseni
 
 
+### 8) Graf
 
-### 8) Graf není
+![image](images/graf1.jpeg)
  
